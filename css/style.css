@@ -1,0 +1,2178 @@
+body{
+	font-family: Open-Sans;
+	font-size:16px;
+	line-height:22px;
+	font-weight:400;
+	color:#202020;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: Roboto Slab;
+}
+/*----------loader css start---------*/
+#tr_preloader_wrapper {
+	background-color: #fff;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 2147483647;
+}
+#tr_preloader_wrapper #tr_preloader_box {
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	margin: -100px 0 0 -100px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid #86b817;
+    animation: up 1s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+    border-bottom: none;
+    border-right: none;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    	 margin-left: -70px;
+	margin-top: -70px;
+
+  }
+  
+  @keyframes up{
+   from{transform:rotate(0deg); }
+   50%{transform:rotate(180deg);}
+   100%{transform:rotate(360deg);}
+  }
+  #img2{
+  width:90px;
+  height:90px;
+  left:50.35%;
+  top:50.7%;
+  animation-delay:.2s;
+
+  }
+    #img3{
+   width:80px;
+  height:80px;
+    left:50.70%;
+  top:51.4%;
+  animation-delay:.4s;
+  }
+    #img4{
+   width:70px;
+  height:70px;
+     left:51.05%;
+  top:52.1%;
+  animation-delay:.6s;
+
+  }
+    #img5{
+    width:60px;
+  height:60px;
+      left:51.40%;
+  top:52.8%;
+  animation-delay:.8s;
+
+  }
+/*--------loader css end ---------*/
+/*---------normal css start -------*/
+.tr_toppadder10{
+	padding-top:10px;
+}
+.tr_toppadder20{
+	padding-top:20px;
+}
+.tr_toppadder30{
+	padding-top:30px;
+}
+.tr_toppadder40{
+	padding-top:40px;
+}
+.tr_toppadder50{
+	padding-top:50px;
+}
+.tr_toppadder60{
+	padding-top:60px;
+}
+.tr_toppadder70{
+	padding-top:70px;
+}
+.tr_toppadder80{
+	padding-top:80px;
+}
+.tr_toppadder90{
+	padding-top:90px;
+}
+.tr_toppadder100{
+	padding-top:100px;
+}
+.tr_bottompadder10{
+	padding-bottom:10px;
+}
+.tr_bottompadder20{
+	padding-bottom:20px;
+}
+.tr_bottompadder30{
+	padding-bottom:30px;
+}
+.tr_bottompadder40{
+	padding-bottom:40px;
+}
+.tr_bottompadder50{
+	padding-bottom:50px;
+}
+.tr_bottompadder60{
+	padding-bottom:60px;
+}
+.tr_bottompadder70{
+	padding-bottom:70px;
+}
+.tr_bottompadder80{
+	padding-bottom:80px;
+}
+.tr_bottompadder90{
+	padding-bottom:90px;
+}
+.tr_bottompadder100{
+	padding-bottom:100px;
+}
+/*---------normal css end -------*/
+/*-----banner start------*/
+.tr_banner_wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+/*-----banner end------*/
+/*--------header start-----*/
+.tr_header_wrapper{
+	float:left;
+	width:100%;
+	background: #86b817;
+}
+.tr_fixed {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+.tr_logo{
+	float:left;
+	width:100%;
+	padding:20px 0;
+}
+.tr_logo a{
+	display:inline-block;
+}
+.tr_menu {
+    float: right;
+    width: auto;
+}
+.tr_menu .navbar-nav li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 30px 15px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_menu .navbar-nav li:hover a, .tr_menu .navbar-nav li.active a, .tr_menu .navbar-nav li:focus a {
+    background: #fff;
+    color: #86b817;
+    outline:none;
+}
+.tr_menu .navbar-nav li:focus{
+    outline:none;
+} 
+/*--------header end-----*/
+/*------choose us section start------*/
+.tr_transparent_wrapper{
+	float:left;
+	width:100%;
+}
+.tr_chooseus_div {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background: #f1f1f1;
+    padding-top: 0;
+    position: relative;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_chooseus_div span {
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    background: #86b817;
+    line-height: 70px;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    margin-top: -10px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_chooseus_div span:before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid transparent;
+    border-right: 10px solid #86b817;
+    border-bottom: 2px solid transparent;
+    left: -10px;
+    top: 0px;
+}
+.tr_chooseus_div span:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid transparent;
+    border-left: 10px solid #86b817;
+    border-bottom: 2px solid transparent;
+    right: -10px;
+    top: 0px;
+}
+.tr_chooseus_div h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #202020;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_chooseus_div p {
+	float:left;
+	width:100%;
+	margin:0px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_chooseus_div:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.38);
+    background: #86b817;
+}
+.tr_chooseus_div:hover h3, .tr_chooseus_div:hover p{
+	color:#fff;
+}
+.tr_chooseus_div:hover span {
+    background: #fff;
+    color: #86b817;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+}
+/*------choose us section end------*/
+/*--------main heading start-------*/
+.tr_heading {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.tr_heading h2 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    color: #86b817;
+    font-weight: bold;
+    font-family: Roboto Slab;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+/*--------main heading end-------*/
+/*---------gallery section start------*/
+.tr_gallery_div {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.tr_overlay {
+    position: absolute;
+    background: rgba(134, 184, 23, 0.5);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+    -webkit-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -ms-transform-origin: center top;
+    -o-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tr_gallery_div:hover .tr_overlay {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+}
+.tr_overlay_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.tr_overlay_content a {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    display: inline-block;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 100%;
+    color: #fff;
+    -webkit-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    -moz-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    -o-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+}
+.tr_overlay_content a i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+    background: #fff;
+    color: #86b817;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_gallery_div:hover .tr_overlay_content a{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.tr_overlay_content a:focus{
+	outline:none;
+	text-decoration:none;
+}
+/*---------gallery section end------*/
+/*---------top tours section start------------*/
+.tr_toptours_div {
+    float: left;
+    width: 100%;
+    background: #f1f1f1;
+    padding: 15px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}	
+.tr_tour_detail {
+    float: left;
+    width: 70%;
+    padding-top: 15px;
+}
+.tr_tour_detail h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #86b817;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_tour_detail p {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    margin: 0;
+    color: #393939;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_tour_price {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding-top: 15px;
+}
+.tr_tour_price h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    color: #86b817;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 20px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_toptours_div:hover{
+	background:#86b817;
+} 
+.tr_toptours_div:hover .tr_tour_price h3, .tr_toptours_div:hover .tr_tour_detail p, .tr_toptours_div:hover .tr_tour_detail h3 {
+	color:#fff;
+}
+.tr_btndiv {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+/*---------top tours section end------------*/
+/*-------button css start-------*/
+.tr_btn {
+    display: inline-block;
+    padding: 14px 35px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #86b817;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    box-shadow: none;
+    border: none;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.tr_btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 25px;
+}
+.tr_btn:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.tr_btn:hover, .tr_btn:focus{
+	outline:none;
+	text-decoration:none;
+	border:none;
+	color:#fff;
+}
+/*-------button css end-------*/
+/*-----offer section start------*/
+.tr_offer_wrapper {
+    float: left;
+    width: 100%;
+    background-image: url(http://via.placeholder.com/1920x1080);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.tr_offer_wrapper:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.48);
+}
+.tr_heading.tr_whitetext h2 {
+    color: #fff;
+}
+.tr_offer_div {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.tr_offer_div h3 {
+    float: left;
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    font-family: Open-Sans;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 14px;
+}
+.tr_offer_div h5 {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    font-family: Open-Sans;
+}
+.im_product_timer {
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+}
+.im_product_timer .future_date {
+    float: left;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+}
+.im_product_timer .future_date .tr_timediv{
+	display:inline-block;
+	width:100px;
+	height:100px;
+	background:rgba(241, 241, 241, 0.85);
+	margin-right:10px;
+	border:2px solid #86b817;
+	border-radius:5px;
+	text-transform:capitalize;
+	padding:25px;
+	font-size:35px;
+	color:#86b817;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+.im_product_timer .future_date .tr_timediv .displayformat{
+	display:inline-block;
+	width:100%;
+	color:#3f3f3f;
+	font-weight:400;
+	font-size:20px;
+}
+.tr_offer_div h2 {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-family: Open-Sans;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 30px 0 0px;
+}
+/*-----offer section end------*/
+/*-----app section start-----*/
+.tr_app_wrapper {
+	float: left;
+    width: 100%;
+    background: url(http://via.placeholder.com/1920x1080);
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.tr_app_wrapper:after {
+    position: absolute;
+    content: '';
+    background: rgba(134, 184, 23, 0.52);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.tr_appdiv {
+    float: left;
+    width: 100%;
+    padding: 90px 0;
+    position: relative;
+    z-index: 1;
+}
+.tr_appdiv h3 {
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #353535;
+    margin: 0;
+    padding: 20px 0 15px;
+}
+.tr_appdiv p {
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.tr_appdiv ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+}
+.tr_appdiv ul li {
+    display: inline-block;
+    list-style: none;
+}
+.tr_appdiv ul li a {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 100%;
+    line-height: 80px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 45px;
+    color: #86b817;
+}
+.tr_app_img_div {
+    position: relative;
+    z-index: 1;
+}
+/*-----app section end-----*/
+/*---------top hotel start-------*/
+.tr_tophotels_wrapper {
+    float: left;
+    width: 100%;
+    background-image: url(http://via.placeholder.com/1920x1080);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.tr_tophotels_wrapper:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.53);
+    top: 0;
+    left: 0;
+}
+.tr_hoteldiv {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.tr_hoteldelail {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.tr_hoteldelail p {
+    float: left;
+    width: 100%;
+    color: #4c4b4b;
+    font-size: 12px;
+    padding: 0px 15px;
+    margin-bottom: 25px;
+}
+.tr_hotelname {
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+}
+.tr_hotelname h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 5px;
+    color: #86b817;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 22px;
+	text-align:left;
+}
+.tr_hotelname h5 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    font-family: Open-Sans;
+	text-align:left;
+}
+.tr_hotelprice {
+	float: left;
+    width: 30%;
+    text-align: right;
+    padding-right: 20px;
+}
+.tr_hotelprice h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    color: #86b817;
+    font-family: Open-Sans;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.tr_startrating {
+    float: left;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-top: 1px solid #a1a1a1;
+    border-bottom: 1px solid #a1a1a1;
+}
+.tr_ratingdiv {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.tr_review {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.tr_review p {
+    float: left;
+    width: 100%;
+    margin: 0;
+    color: #393939;
+    font-size: 12px;
+	padding:0;
+    text-align: right;
+}
+.tr_hotelbtn {
+	display: inline-block;
+    color: #86b817;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 6px 15px;
+    background: #f1f1f1;
+    letter-spacing: 0.5px;
+  -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.tr_hotelbtn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #86b817;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.tr_hotelbtn:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.tr_hotelbtn:hover, .tr_hotelbtn:focus{
+	outline:none;
+	text-decoration:none;
+	border:none;
+	color:#fff;
+}
+/*---------top hotel end-------*/
+/*--------testimonial section start-------*/
+.tr_testimonial_slider{
+	float:left;
+	width:100%;
+}
+.tr_testimonial_data {
+    float: left;
+    width: 100%;
+    background: rgba(134, 184, 23, 0.9);
+    padding: 30px 20px;
+    border-radius: 20px 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+.tr_testimonial_data:before {
+	position: absolute;
+    content: "\f10d";
+    font-family: FontAwesome;
+    z-index: -1;
+    font-size: 70px;
+    top: 45px;
+    color: #7faf16;
+}
+.tr_testimonial_data:after {
+    position: absolute;
+    content: '';
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 11px solid #86b817;
+    bottom: -10px;
+    left: 40px;
+}
+.tr_testimonial_data p {
+    float: left;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+}
+.tr_bottom_content {
+    float: left;
+    width: 100%;
+    padding: 0px 20px;
+}
+.tr_img {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+.tr_img img {
+    border-radius: 100%;
+    width: auto !important;
+}
+.tr_content {
+    float: left;
+    width: 70%;
+}
+.tr_content h3 {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    color: #3b3b3b;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.tr_content p {
+    float: left;
+    width: 100%;
+    margin: 0;
+    color: #2a2a2a;
+}
+/*--------testimonial section end-------*/
+/*--------newsletter section start--------*/
+.tr_green_wrapper {
+    float: left;
+    width: 100%;
+    background: #86b817;
+    padding: 30px 0 60px;
+}
+.tr_newsletter_content {
+    float: left;
+    width: 100%;
+}
+.tr_newsletter_content h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.tr_newsletter_content p {
+    float: left;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+}
+.tr_newsletter_form {
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+}
+.tr_newsletter_form .form-inline {
+    float: left;
+    width: 100%;
+}
+.tr_newsletter_form .form-inline .form-group {
+    float: left;
+    width: 73%;
+    margin-right: 20px;
+}
+.tr_newsletter_form .form-inline .form-group .form-control {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    height: 50px;
+    border-radius: 0;
+    color: #3c3c3c;
+}
+.tr_newsletter_form .form-inline .tr_form_btn {
+    background: transparent;
+    border: 2px solid #fff;
+    box-shadow: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 13px 32px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.tr_newsletter_form .form-inline .tr_form_btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+	border-color:#333;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.tr_newsletter_form .form-inline .tr_form_btn:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.tr_newsletter_form .form-inline .tr_form_btn:hover, .tr_newsletter_form .form-inline .tr_form_btn:focus {
+	border-color:#333;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+/*--------newsletter section end--------*/
+/*-------footer start-----*/
+.tr_footer_wrapper {
+    float: left;
+    width: 100%;
+    background: #2f3339;
+    padding: 80px 0 60px;
+}
+.tr_footerdata {
+    float: left;
+    width: 100%;
+}
+.tr_footerdata img {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.tr_locationdiv {
+    float: left;
+    width: 100%;
+}
+.tr_locationdiv ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.tr_locationdiv ul li {
+    float: left;
+    width: 100%;
+    color: #fff;
+    list-style: none;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+.tr_locationdiv ul li i {
+    font-size: 40px;
+    float: left;
+    margin-right: 20px;
+    color: #86b817;
+}
+.tr_locationdiv ul li a{
+	color:#fff;
+	text-decoration:none;
+	outline:none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_locationdiv ul li a:hover, .tr_locationdiv ul li a:focus {
+	color:#86b817;
+	text-decoration:none;
+	outline:none;
+}
+.tr_footerdata h3{
+	float:left;
+	width:100%;
+	margin:0px;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+.tagcloud {
+    float: left;
+    width: 100%;
+}
+.tagcloud a {
+    display: inline-block;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 20px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tagcloud a:hover {
+	color:#86b817;
+}
+.tagcloud a:last-child{
+	border-right:none;
+}
+.tr_footer_gallery {
+    float: left;
+    width: 100%;
+}
+.tr_footer_gallery ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.tr_footer_gallery ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.tr_footer_gallery ul li:nth-child(3n) {
+    margin-right: 0;
+}
+.tr_footer_gallery ul li a {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.tr_footer_gallery ul li a:focus{
+	outline:none;
+}
+.tr_footer_gallery ul li a:hover .tr_overlay {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+}
+.tr_footer_gallery ul li a img {
+    margin-bottom: 0px;
+}
+/*-------footer end-----*/
+/*-----copyright section start-------*/
+.tr_copyright_wrapper {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+}
+.tr_socialicons {
+    float: left;
+    width: 100%;
+}
+.tr_socialicons ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.tr_socialicons ul li {
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+}
+.tr_socialicons ul li a {
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_socialicons ul li a i {
+    float: left;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_socialicons ul li a i.fa-google-plus {
+    background: #dd4b39;
+}
+.tr_socialicons ul li a i.fa-pinterest {
+    background: #c9353d;
+}
+.tr_socialicons ul li a i.fa-twitter {
+    background: #50abf1;
+}
+.tr_socialicons ul li a i.fa-facebook {
+    background: #3a559f;
+}
+.tr_socialicons ul li a i:hover{
+	background:#000;
+}
+.tr_copyright_wrapper p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.tr_copyright_wrapper p a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.tr_footer_link {
+    float: right;
+    width: auto;
+}
+.tr_footer_link ul {
+    float: right;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+.tr_footer_link ul li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+.tr_footer_link ul li a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #3d3d3d;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.tr_footer_link ul li a:hover {
+	color:#86b817;
+}
+/*-----copyright section end-------*/
+/*custom animation start*/
+.animat{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.fromtop {
+    -webkit-animation: fromtop .7s 1;
+    -moz-animation: fromtop .7s 1;
+    animation: fromtop .7s 1;
+}
+@-webkit-keyframes fromtop {
+    from {
+        -webkit-transform: translateY(-30px);
+		opacity:0;
+    }
+    to {
+        -webkit-transform: translateY(0px);
+		opacity:1;
+    }
+}
+@keyframes fromtop {
+    from {
+        transform: translateY(-30px);
+		opacity:0;
+    }
+    to {
+        transform: translateY(0px);
+		opacity:1;
+    }
+}
+@-moz-keyframes fromtop {
+    from {
+        -moz-transform: translateY(-30px);
+		opacity:0;
+    }
+    to {
+        -moz-transform: translateY(0px);
+		opacity:1;
+    }
+}
+
+.frombottom {
+    -webkit-animation: frombottom 1 0.7s ease-in-out ;
+    -moz-animation: frombottom 1 0.7s ease-in-out;
+    animation: frombottom 1 0.7s ease-in-out ;
+}
+@-webkit-keyframes frombottom {
+    from {
+        -webkit-transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes frombottom {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes frombottom {
+    from {
+        -moz-transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        -moz-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fromleft {
+    -webkit-animation: fromleft .7s 1;
+    -moz-animation: fromleft .7s 1;
+    animation: fromleft .7s 1;
+}
+@-webkit-keyframes fromleft {
+    from {
+        -webkit-transform: translateX(-30px);
+		opacity:0;
+    }
+    to {
+        -webkit-transform: translateX(0px);
+		opacity:1;
+    }
+}
+@keyframes fromleft {
+    from {
+        transform: translateX(-30px);
+		opacity:0;
+    }
+    to {
+        transform: translateX(0px);
+		opacity:1;
+    }
+}
+@-moz-keyframes fromleft {
+    from {
+        -moz-transform: translateX(-30px);
+		opacity:0;
+    }
+    to {
+        -moz-transform: translateX(0px);
+		opacity:1;
+    }
+}
+.fromright {
+    -webkit-animation: fromright 0.7s 1;
+    -moz-animation: fromright 0.7s 1;
+    animation: fromright 0.7s 1;
+}
+@-webkit-keyframes fromright {
+    from {
+        -webkit-transform: translateX(30px);
+		opacity:0;
+    }
+    to {
+        -webkit-transform: translateX(0px);
+		opacity:1;
+    }
+}
+@keyframes fromright {
+    from {
+        transform: translateX(30px);
+		opacity:0;
+    }
+    to {
+        transform: translateX(0px);
+		opacity:1;
+    }
+}
+@-moz-keyframes fromright {
+    from {
+        -moz-transform: translateX(30px);
+		opacity:0;
+    }
+    to {
+        -moz-transform: translateX(0px);
+		opacity:1;
+    }
+}
+
+/*custom animation end*/
+/*------about us page start--------*/
+.tr_page_title_wrapper {
+    float: left;
+    width: 100%;
+    padding: 150px 0;
+    background-image: url(http://via.placeholder.com/1920x422);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.tr_page_title_wrapper:after {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.44);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.tr_page_heading {
+    float: left;
+    width: 100%;
+    text-align: center;
+	position:relative;
+	z-index:1;
+}
+.tr_page_heading h1 {
+    float: left;
+    width: 100%;
+    color: #86b817;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+}
+.tr_about_data {
+    float: left;
+    width: 100%;
+}
+.tr_about_data h2 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #86b817;
+	text-transform:capitalize;
+}
+.tr_about_data p {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tr_about_data ul {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.tr_about_data ul li {
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    position: relative;
+    font-weight: 600;
+}
+.tr_about_data ul li:before {
+    position: absolute;
+    content: "\f00c";
+    font-family: FontAwesome;
+    left: 0;
+    font-size: 20px;
+}
+/*------about us page end--------*/
+/*--------contact us start---------*/
+.tr_contact_data, .tr_contact_form {
+    float: left;
+    width: 100%;
+}
+.tr_contact_data h2, .tr_contact_form h2 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #86b817;
+    text-transform: capitalize;
+}
+.tr_contact_data p {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tr_contact_data ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.tr_contact_data ul li {
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+.tr_contact_data ul li i {
+    color: #86b817;
+    float: left;
+    font-size: 35px;
+    margin-right: 15px;
+}
+.tr_form {
+    float: left;
+    width: 100%;
+}
+.tr_form .form-group {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tr_form .form-group .form-control {
+    display: inline-block;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #86b817;
+    color: #202020;
+    resize: none;
+}
+.tr_form .form-group textarea.form-control {
+    height: auto;
+}
+.tr_form .tr_btn {
+    padding: 14px 55px;
+}
+.tr_form .form-group .form-control:focus{
+	outline:none;
+	box-shadow:none;
+}
+.tr_mapwrapper{
+	float:left;
+	width:100%;
+}
+#real_map {
+    display: block;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+/*--------contact us end---------*/
+/*------------booking page start------------*/
+.tr_booking_form {
+    float: left;
+    width: 100%;
+    background: #86b817;
+    padding: 50px 30px;
+}
+.tr_booking_form .tr_booking {
+    float: left;
+    width: 100%;
+}
+.tr_booking_form .tr_booking .form-group {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+	position:relative;
+}
+.tr_booking_form .tr_booking .form-group label {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-family: Roboto Slab;
+    font-size: 16px;
+}
+.tr_booking_form .tr_booking .form-group .form-control {
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    padding: 0px 30px;
+    color: #202020;
+    font-size: 16px;
+}
+.tr_booking_form .tr_booking .form-group span {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.tr_booking_form .tr_booking .form-group .form-control::-moz-placeholder {
+  color: #202020;
+  opacity: 1;
+}
+.tr_booking_form .tr_booking .form-group .form-control:-ms-input-placeholder {
+  color: #202020;
+}
+.tr_booking_form .tr_booking .form-group .form-control::-webkit-input-placeholder {
+  color: #202020;
+}
+.tr_booking_form .tr_booking .tr_btndiv .tr_btn {
+    background: #fff;
+    color: #86b817;
+}
+.tr_booking_form .tr_booking .tr_btndiv .tr_btn:hover {
+	color:#fff;
+}
+.tr_booking_img{
+	float:left;
+	width:100%;
+}
+.tr_services_div {
+    float: left;
+    width: 100%;
+}
+.tr_services_div h2 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background: #86b817;
+    color: #fff;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.tr_services_div h2 span{
+	float:right;
+}
+/*------------booking page end------------*/
+/*---------offer page start----------*/
+.tr_offer_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.tr_offer_overlay_inner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 145px;
+    -webkit-transform: scale(1) translateY(12px);
+    -moz-transform: scale(1) translateY(12px);
+    -o-transform: scale(1) translateY(12px);
+    -ms-transform: scale(1) translateY(12px);
+    transform: scale(1) translateY(-50%);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.tr_offer_overlay_inner span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 62px;
+    border: 4px solid #86b817;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+}
+.tr_offer_overlay_inner h3 {
+    font-family: Roboto Slab;
+    text-transform: capitalize;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.tr_offer_overlay_inner p {
+    float: left;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+}
+.tr_offer_overlay_inner .tr_btn {
+    opacity: 0;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+.tr_offer_div:hover .tr_offer_overlay_inner {
+    -webkit-transform: scale(1) translateY(0px);
+    -moz-transform: scale(1) translateY(0px);
+    -o-transform: scale(1) translateY(0px);
+    -ms-transform: scale(1) translateY(0px);
+    transform: scale(1) translateY(20%);
+    top: 0;
+}
+.tr_offer_div:hover .tr_offer_overlay_inner .tr_btn {
+    opacity: 1;
+    transform: translateY(100%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    margin-top: 20px;
+}
+.tr_singapore_trip_wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+    background-image: url(http://via.placeholder.com/1920x1080);
+    padding: 80px 0;
+    background-size: cover;
+    background-position: 0 15%;
+}
+.tr_tripoverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+.tr_singapore_trip_detail {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.tr_trip_heding {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.tr_trip_heding h3 {
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    color: #86b817;
+    line-height: 50px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.tr_trip_heding h2 {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    margin: 0;
+    line-height: 90px;
+}
+.tr_trip_heding h2 .tr_verticaldata {
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: top center;
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0px -30px 0 -20px;
+    line-height: 40px;
+}
+.tr_trip_heding h2 .tr_greenbg {
+    display: inline-block;
+    background: #86b817;
+    padding: 0px 15px;
+    font-size: 65px;
+    line-height: 70px;
+}
+.tr-left-top-border:before {
+	content: '';
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    height: 3px;
+    width: 9%;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tr-left-top-border:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    width: 3px;
+    height: 43px;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tr-right-bottom-border:before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 42px;
+    width: 13%;
+    height: 3px;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tr-right-bottom-border:after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 42px;
+    width: 3px;
+    height: 43px;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tr-left-bottom-border:before {
+	content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 42px;
+    width: 13%;
+    height: 3px;
+    background: #fff;
+}
+.tr-left-bottom-border:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 44px;
+    width: 3px;
+    height: 43px;
+    background: #fff;
+}
+.tr-right-top-border:before{
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    height: 3px;
+    width: 9%;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tr-right-top-border:after{
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    width: 3px;
+    height: 44px;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tr_singapore_trip_detail p {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin: 0;
+    color: #fff;
+}
+/*---------offer page end----------*/
+
+
+
+/*-------responsive css start-----*/
+@media (max-width: 1200px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.tr_footer_link ul li{
+     margin-left: 6px;
+}
+.tr_footer_link ul li a, .tr_copyright_wrapper p{
+    font-size: 13px;
+}
+.tr_newsletter_form .form-inline .form-group{
+    width: 65%;
+}
+.tr_footer_gallery ul li{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 29%;
+}
+.tr_offer_overlay_inner h3{
+    padding-top: 10px;
+}
+.tr_offer_overlay_inner:hover .tr_btn{
+    margin-top: 10px;
+}
+.tr_offer_overlay_inner .tr_btn{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.tr_trip_heding h3{
+    font-size: 38px;
+}
+.tr_trip_heding h2{
+    font-size: 80px;
+}
+.tr_trip_heding h2 .tr_verticaldata{
+    font-size: 30px;
+    margin: 0px -30px 0 -15px;
+}
+.tr_trip_heding h2 .tr_greenbg{
+    padding: 0px 10px;
+    font-size: 65px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.tr_logo{
+    padding: 10px 0 10px;
+    text-align: center;
+}
+.tr_menu{
+    width: 100%;
+    text-align: center;
+}
+.tr_menu .navbar-collapse.collapse {
+    display: inline-block !important;
+}
+.tr_menu .navbar-nav li a{
+    padding: 20px 10px;
+}
+.tr_gallery_div img {
+    display: inline-block;
+    width: 100%;
+}
+.tr_toptours_div{
+    text-align: center;
+}
+.tr_toptours_div img {
+    display: inline-block;
+    width: 100%;
+}
+.tr_socialicons{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tr_socialicons ul{
+    float: none;
+    width: auto;
+    display: inline-block;
+}
+.tr_footer_link{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.tr_footer_link ul{
+    float: none;
+    display: inline-block;
+}
+.tr_hoteldiv img {
+    width: 100%;
+}
+.tr_appdiv{
+    text-align: center;
+    padding: 30px 0;
+}
+.tr_appdiv img {
+    display: inline-block;
+}
+.tr_app_img_div {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.tr_app_img_div img {
+    display: inline-block;
+}
+.tr_tour_detail{
+    text-align: left;
+}
+.tr_services_div h2{
+    padding: 10px;
+    font-size: 20px;
+}
+.tr_footer_gallery ul li{
+	margin-right: 15px;
+    margin-bottom: 15px;
+}
+.tr_footer_gallery ul li:nth-child(3n) {
+    margin-right: 15px;
+}
+.tr_booking_img{
+    text-align: center;
+}
+.tr_booking_img img {
+    display: inline-block;
+}
+.tr_offer_div{
+    float: none;
+    width: auto;
+    display: inline-block;
+}
+}
+@media (max-width: 767px) {
+.tr_hoteldiv{
+    text-align: center;
+}
+.tr_hoteldiv img {
+    display: inline-block;
+}
+.tr_hoteldelail p{
+	text-align:left;
+}
+.tr_hotelbtn{
+    float: left;
+    margin-left: 15px;
+}
+.navbar-toggle{
+    background-color: #fff;
+}
+.navbar-toggle .icon-bar{
+    background: #86b817;
+}
+.tr_menu{
+	width:100%;
+}
+.tr_menu .navbar-nav li a{
+    padding: 15px;
+}
+.tr_toptours_div img {
+    width: 100%;
+}
+.tr_appdiv{
+	padding: 30px 0;
+    text-align: center;
+}
+.tr_appdiv img {
+    display: inline-block;
+}
+.tr_app_img_div {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.tr_app_img_div img {
+    display: inline-block;
+}
+.tr_footer_gallery ul li{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.tr_footer_gallery ul li:nth-child(3n) {
+    margin-right: 15px;
+}
+.tr_socialicons{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tr_socialicons ul{
+    float: none;
+    width: auto;
+    display: inline-block;
+}
+.tr_footer_link{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.tr_footer_link ul{
+    float: none;
+	display: inline-block;
+}
+.tr_services_div{
+    text-align: center;
+}
+.tr_services_div img {
+    display: inline-block;
+}
+.tr_services_div h2{
+	text-align:left;
+}
+.tr_booking_img{
+    text-align: center;
+}
+.tr_booking_img img {
+    display: inline-block;
+}
+.tr_offer_div{
+    float: none;
+    width: auto;
+    display: inline-block;
+}
+.tr_trip_heding h3{
+    font-size: 35px;
+}
+.tr_trip_heding h2{
+    font-size: 70px;
+}
+.tr_trip_heding h2 .tr_verticaldata{
+    font-size: 30px;
+    margin: 0px -30px 0 -10px;
+}
+.tr_trip_heding h2 .tr_greenbg{
+    font-size: 55px;
+}
+.tr_gallery_div{
+    float: none;
+    width: auto;
+    display: inline-block;
+}
+}
+@media (max-width: 479px) {
+.tr_page_heading h1{
+	font-size:50px;
+}
+.tr_offer_overlay_inner .tr_btn{
+    padding: 10px 25px;
+    font-size: 16px;
+}
+.tr_offer_overlay_inner:hover .tr_btn{
+	margin-top:10px;
+}
+.tr-left-top-border:before, .tr-left-top-border:after, .tr-right-top-border:before, .tr-right-top-border:after{
+    top: 0px;
+}
+.tr-right-bottom-border:before,  .tr-right-bottom-border:after, .tr-left-bottom-border:before, .tr-left-bottom-border:after{
+    bottom: 0px;
+}
+.tr_trip_heding h3 {
+    font-size: 35px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.tr_trip_heding h2 {
+    font-size: 65px;
+    padding: 10px;
+    padding-top: 0;
+}
+.tr_trip_heding h2 .tr_verticaldata {
+    font-size: 25px;
+    margin: 0px -20px 0 0px;
+}
+.tr_trip_heding h2 .tr_greenbg {
+    font-size: 45px;
+}
+}
+@media (max-width: 495px) {
+.tp-caption.PostSlider-Button, .PostSlider-Button{
+    padding: 12px 15px !important;
+}
+@media (max-width: 320px) {
+.tr_offer_overlay_inner h3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 23px;
+}
+.tr_offer_overlay_inner .tr_btn {
+    padding: 7px 20px;
+    font-size: 15px;
+}
+}
+/*-------responsive css end-----*/
